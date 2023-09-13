@@ -1,0 +1,951 @@
+Package: com.captinc.batteryboobs
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Capt Inc <captincrepo@gmail.com>
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debfiles/BatteryBoobs.deb
+Size: 2580
+MD5sum: 0a61dc75add8cef760811004928b28f6
+SHA1: 3fac475ac5c2c6147c151b02e92c9c4bcba4730d
+SHA256: 83b9ac5d52ba920f49cb14baa6bef423a3bb26786d3fd1ebd641bd7ac8155557
+SHA512: fc934fb2a762b257e94d2f6a51ff9e87f622ff02dde2867e1cf20fd9050267533e5e13282a62a1119fec29814bfc06288d72c570aad29a1f07bcfad128f27440
+Description: Show battery percentage in the status bar
+Name: BatteryBoobs
+Author: Capt Inc <captincrepo@gmail.com>
+
+Package: com.lcampbell0x.dropbear
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Depends: firmware (>= 1.0)
+Filename: ./debfiles/Dropbear.deb
+Size: 1832962
+MD5sum: c8f4767f3ae14767eed689fdd5591995
+SHA1: 9fedce104ac61032ecd85f4a9cb9baa60c2b35f4
+SHA256: 5b1058f0b7c6a8cf3fd1aedf0b7a8dbf08266f9e6384a89c5581dd5b60b12549
+SHA512: acea09c0dad6605ca49bbb6eb427a4b5207e05e961b400f323a3cd21aac330b2943c9e6138070efc7a84cadc3537301c5baacec36ae4b02ff728d53db9a3e18d
+Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
+Name: Dropbear
+
+Package: com.opa334.altlist
+Architecture: iphoneos-arm
+Version: 1.0.8
+Section: System
+Maintainer: opa334
+Installed-Size: 404
+Depends: firmware (>=7.0)
+Filename: ./debfiles/altlist.deb
+Size: 47844
+MD5sum: 1633909bb21518536ce21d2aa38cb0d5
+SHA1: 6a19af11044c060eb53c5534d626ff388873024f
+SHA256: c8bcd01a4ae86ce2a25ff8aad8981839136642cfaa65724954900408643f5af1
+SHA512: ccf648fa83a33eecf85b9b7198f32487b57fe36e5a41f93bec46d4865dc6c52aa5fea53849effdb5eb75920d9427536d120235fa372889c5cb9f93d2ad686b66
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+
+Package: apt7-key
+Architecture: iphoneos-arm
+Version: 0.7.25.3-3
+Priority: standard
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 28
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-lib (>= 0.7.25.3-7)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
+Filename: ./debfiles/apt7-key_0.7.25.3-3_iphoneos-arm.deb
+Size: 2962
+MD5sum: 4655f87a3fb9a257c446b3fe85654a05
+SHA1: 61917f67d04e2f3fea7c5a3cefe2ffcbd1346eca
+SHA256: 5f96dcc9778aea3d5f0a02a035f14426d257c2ffe328984c8226b48ae03b77ff
+SHA512: 3c810776fd680230101daa51a9ca5e8c77d440183d1dc2d9b17bc2f5cb21ddd575d20505c178be1e3d9a73f0d817bc654f2434682e03339d0ea2d0d97ea13b1c
+Description: repository encryption key management tool
+Name: APT 0.7 (apt-key)
+
+Package: apt7-lib
+Architecture: iphoneos-arm
+Version: 0.7.25.3-16
+Priority: required
+Essential: yes
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1660
+Provides: apt7-ssl
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma
+Conflicts: apt7-ssl
+Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
+Filename: ./debfiles/apt7-lib_0.7.25.3-16_iphoneos-arm.deb
+Size: 501632
+MD5sum: baf52572e47b8906dc5bd48896206f7d
+SHA1: 53b802b2cc0c9ca8f3599c9ffa81a0c11b35bb59
+SHA256: dc31276fb9c912c0b731f69abc49d29f5489bfc1f002a03014ca3d055183c985
+SHA512: b56e847ae837478792016286859d2c5c57c2475dc918aa3b82dd4e26307afbd9d835389968474ef57a8a28488676bc929cac4bb5772e4cee9d278e12363d7f5b
+Description: the advanced packaging library from Debian
+Name: APT 0.7 Strict (lib)
+
+Package: autosign
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Utilities
+Maintainer: Nebula <me@itsnebula.net>
+Filename: ./debfiles/autosign.deb
+Size: 2394
+MD5sum: cf741dac1df64ac4012bf1641e12d71b
+SHA1: 2e1f37aaba9253b3a4373aba1d16ae5937d5137d
+SHA256: 2a3e308f68ac02072f9736aaa150e4dbe1679b1fd64b572441ef7394ca702a3b
+SHA512: 3673c3cc112ff6933a55604c650f6e421d0f9176bd2506a92d0a7e80e57eb12c0dae68078e4b933e17e784d2763f6e915fad6b6134a862eaf473b8444304d530
+Description: Automatically signs binaries when installed with dpkg/apt.
+Name: AutoSign
+Author: Nebula <me@itsnebula.net>, guacaplushy, woofy <admin@kristen.lc>
+Icon: https://cdn.discordapp.com/attachments/1028398976640229380/1051537598046281859/Frame_19.png
+
+Package: bzip2
+Architecture: iphoneos-arm
+Version: 1.0.8
+Priority: important
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 992
+Filename: ./debfiles/bzip2_1.0.8_iphoneos-arm.deb
+Size: 42684
+MD5sum: 67a3d0c3447eca4c3e29de35d19f505c
+SHA1: 5b8aca4c22ed3ba80e0201d81063acd170cd3b4d
+SHA256: 78cbd14e486d8be801cd0fbfbbfb82683e13d87eca76667e455846e05ae89fbd
+SHA512: 366e9b0504cf4b8a3da2a470c8e9b5e9646f1f0232e5e961aabd8c6b18e2978c6efcf882a0594dff7babebb9843b3aa096af8d8e28c8232a149f31f9ce19de43
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+
+Package: ws.hbang.common
+Architecture: iphoneos-arm
+Version: 1.17
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1852
+Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Filename: ./debfiles/cephei.deb
+Size: 207662
+MD5sum: aea7132dbb77bf799ed6ff1942af9c0a
+SHA1: db31f872dab06eaeb0bc732ede9af5d2e94b52c5
+SHA256: 3eaea1713f40ef02606bfa67f44f62529ea8b923c0aefb39fc68e230c40a0f6d
+SHA512: 91bee746f123feb43b3c8aa9da7e1ddc9d7865567b265c85cf1679fda51c478f5aa1e6324f18f105f8eec8c89f7da79f9d9ccb64107c4f70dbe3d47dc6970ac7
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios5.0
+Name: Cephei Tweak Support
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
+Support: https://hashbang.productions/support/
+dev: hbang
+
+Package: com.opa334.choicy
+Architecture: iphoneos-arm
+Version: 1.4.4
+Section: Tweaks
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1076
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debfiles/choicy.deb
+Size: 158228
+MD5sum: 438adfa32d9f01f009a6cc1300b9485a
+SHA1: 0201623e90133efef75005b36bcd8a080ffbc64f
+SHA256: c75f06dfe9d36d993474234ad497b7e8d7f6e024b07db1aedd55c5a295a1f6b1
+SHA512: 4d2e60b0af293ca39f1ebff12dc0533f5f99c94712784d97a78bbc4e781e45cfdb87e5df5fba19a2c7da11cff96a6e87d9d6db83fb5d78be93ce6d278d322337
+Description: Advanced Tweak Configuration!
+Name: Choicy
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm
+Version: 7.9.1
+Section: Utilities
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debfiles/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 4786998
+MD5sum: ccd722461350e28e2e0b5a029416ca6c
+SHA1: 36acad04b82db75d345c91ee363a27eb4d602a27
+SHA256: f1e6087494618183f7539bba3a38ee88608383868cfcd524f99b46d7e7a27a47
+SHA512: 472e851b5aa86db6bf178137aa2b0ba885c703157bd81fd61be965d5b18b14783afe7e19a90c48c4defc88779c5851fc6532baa58dbcdd6865d1b3496e11b2d2
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Name: iCleaner Pro
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: com.ginsu.dodo
+Architecture: iphoneos-arm
+Version: 2.4.1
+Section: Tweaks
+Maintainer: Ginsu <njl02@outlook.com>
+Depends: firmware (>=14.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader, com.peterdev.libpddokdo
+Filename: ./debfiles/com.ginsu.dodo.deb
+Size: 304112
+MD5sum: 7ac5b10ec1602a3d75bda10af5d99356
+SHA1: 22f0d95c21cb783f276a26608d91749455f752cf
+SHA256: e8d2a508f1b34d7229a04ddab47ed6709a296b904dc48c7a3e2c1e0b14483357
+SHA512: 663cd3f7fea4d70b07f5a194933d299692093bfc04e94f35317d18f4a76a6c5d2b050e246386c8f6b0ff778ad03fe9bc0417be745f6edb1fcd07fc1139bcfdae
+Homepage: https://ginsu.dev
+Description: The perfect LS redesign.
+Tag: role::enduser
+Name: Dodo
+Depiction: https://repo.ginsu.dev/depiction/web/com.ginsu.dodo.html
+SileoDepiction: https://repo.ginsu.dev/depiction/native/com.ginsu.dodo.json
+ModernDepiction: https://repo.ginsu.dev/depiction/native/com.ginsu.dodo.json
+Icon: https://repo.ginsu.dev/assets/com.ginsu.dodo/icon.png
+Tags: compatible_min::ios14.0, compatible_max::ios15.9
+Author: Ginsu <njl02@outlook.com>
+Sponsor: Ginsu Tweaks <njl02@outlook.com>
+SomeOtherEntryToControl: True
+
+Package: com.ichitaso.otadisabler
+Architecture: iphoneos-arm
+Version: 0.3
+Section: System
+Maintainer: ichitaso
+Installed-Size: 200
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Filename: ./debfiles/com.ichitaso.otadisabler_0.3_iphoneos-arm.deb
+Size: 27640
+MD5sum: b635278762241cc8482a8094bf6eda20
+SHA1: 7a187c1b5adc8abaf7a107a994fe7a19c9444bb3
+SHA256: ad5a9c16ee3a466a47c28d099b4f1cbe6317a6ed75cd29fbafbd56b39f8a4285
+SHA512: 20916ecc7eb4a86969c609b19e03eb6be075235d9ce9638d110e2e88c75ffb798a4fa31cf0039d0009b594af3b46db7b39a19edcabc5feee01e89b53a572624c
+Description: Delete and disable OTA badge
+Name: OTADisabler
+Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
+Author: ichitaso
+
+Package: com.level3tjg.daemondisabler
+Architecture: iphoneos-arm
+Version: 1.1.3
+Section: Tweaks
+Maintainer: level3tjg
+Installed-Size: 640
+Depends: mobilesubstrate, preferenceloader, ldid
+Filename: ./debfiles/com.level3tjg.daemondisabler_1.1.3_iphoneos-arm.deb
+Size: 78618
+MD5sum: 5a644a26b8d687cee134940f8c09b68b
+SHA1: a50f9fbc5268166164d8608abc216a2be486cf4c
+SHA256: 36b84380a22c39090ccd58eafb65d4794e6af04dba07c7f21b8c23f4564cabc6
+SHA512: aa0f4ebc9c1b026d8716353c3fdfe9730789541eba9636aa76c7da53bee62f55982d4dc7c38bf4d8ffb5d1d6bd1cc4782094d877c4be2adcd3a4ce4f39c7215b
+Description: Disable / Enable launch daemons on the fly from the Settings app
+Name: DaemonDisabler
+Author: level3tjg
+
+Package: com.level3tjg.spotifyloginfix
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: level3tjg
+Installed-Size: 264
+Depends: mobilesubstrate
+Filename: ./debfiles/com.level3tjg.spotifyloginfix_0.0.1_iphoneos-arm.deb
+Size: 7162
+MD5sum: d8aaaa58571cef62b315840c0de13c1a
+SHA1: 5262f69356ec5baa6b5e162ed929090ba09480fa
+SHA256: a8949dcf3157cd7290e49a4dc2249bbe2b4f9b8c1b88b69fb3d72724186686d8
+SHA512: 229468275f5d1185860f8eaace07a334714f033c55257fa86b69a3d243b43a65e8e447314a26c2f650c1f868f1e4d54fa095ac7156f5978bbdc802b3ec568641
+Description: Fix Spotify login errors on old versions
+Name: Spotify Login Fix
+Author: level3tjg
+
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm
+Version: 1.4.5
+Section: Applications
+Maintainer: opa334
+Installed-Size: 676
+Filename: ./debfiles/com.opa334.trollstorehelper_1.4.5_iphoneos-arm.deb
+Size: 217084
+MD5sum: 0e484ae602b3a0af60ded4ec69f40032
+SHA1: d1263ef6a2beeab1d6c927e71ddc5b293204c689
+SHA256: 299bf3eced019e79c2b612382446611a2983664941c9cae55f90d086134f73eb
+SHA512: c545219ad33d86601db86c92c397aa1d0a8b71c9d460fc2780c890d86a1cca69b8ae9b041e46a6ce87bb703e8a82ebe2a0b6a6d6e0a71f3a47aa834d9f50a11f
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
+Package: com.ps.amber
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 592
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debfiles/com.ps.amber_1.0.2_iphoneos-arm.deb
+Size: 39170
+MD5sum: 1c2366f5d37f84bdf9158767b4ef6de3
+SHA1: 06d5e62e696757ba0c42d8b4de5dda2c29679d9e
+SHA256: cf1bf66f2bae6f0d22705b9f93f0574886c6bfc40775e027726f61e4807723bb
+SHA512: 5cb2ea689313e1cc0ccd1a3ffac0b3183ace10defd9def95178753a6684524164eda727ffe3e9a22b92d6c9ea6d5cc331105991278ae1ea957d0b42f639b68ca
+Description: Amber-ify your LED torch.
+Name: Amber
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
+Package: com.unlimapps.uaupdatetools
+Architecture: iphoneos-arm
+Version: 1.0r-102
+Priority: optional
+Section: System
+Maintainer: UnlimApps Inc.
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: it.marcocristalli.asupdatehider
+Filename: ./debfiles/com.unlimapps.uaupdatetools_1.0r-102_iphoneos-arm.deb
+Size: 863628
+MD5sum: 6d7f076eb541e5bbec3e3629f152d16d
+SHA1: 058a98b3da7197c1c767c71a6db420b392a460d2
+SHA256: 8a251edeb458547686060caa4545800061b5d6d465b34982c1e76580474180c1
+SHA512: 0966a0975d0cce26ce83f7ef78c3e2b62b92d24b59436d1915faeea78ed443d019e146d7d6d8b7477bbd06148a6c028d4e717132c06e2668bfba40260a10c8c2
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
+Name: App Admin
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Author: UnlimApps Inc.
+
+Package: cydia-lproj
+Architecture: iphoneos-arm
+Version: 1.1.32~b1
+Priority: required
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 712
+Provides: org.thebigboss.russiancydia
+Depends: cydia
+Conflicts: org.thebigboss.russiancydia
+Replaces: cydia, org.thebigboss.russiancydia
+Filename: ./debfiles/cydia-lproj_1.1.32_b1_iphoneos-arm.deb
+Size: 66782
+MD5sum: fa449ef13b409ace0ef8c670ad99acb0
+SHA1: 4cef1d2cf7608f3a55d7b17dd97da9c7f8f36176
+SHA256: e4010365acffffbae0d246f1c3c3163492bb36be90709cfcf5764573729f023a
+SHA512: 37200545794c0fa4283ea574f08c42ed0100316106910ae91ed2c680f73fddc53b8e5b6a0f58a75dce29c14ff8c4d6ac5e7439fbe8c7877425725ea3cd1f5bef
+Description: languages and translations for Cydia
+Tag: purpose::uikit, cydia::essential, role::enduser
+Name: Cydia Translations
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+
+Package: cydia
+Architecture: iphoneos-arm
+Version: 1.1.36-4
+Priority: important
+Section: Packaging
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 14.0)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./debfiles/cydia_1.1.36-4_iphoneos-arm.deb
+Size: 1333614
+MD5sum: 811c1642f40c858adbc2e1eada205eb7
+SHA1: 78d6f2b2daabff270daa28ad60c4ca751508bd90
+SHA256: 49790811ed5bf00dc09de5ffb8e34f7ea2967fca498d8dda1f4a4752fdf2c53f
+SHA512: ac469e61e0aad6c168b2d451211f31720120091206c0d42459091a293ea3a4fde9ae163a864547e9aedca07ebeccd42e9c83d48de03a8abf8b2628f3ec7e72f1
+Description: graphical iPhone front-end for APT. This version is fixed for iOS 15+
+Tag: purpose::uikit, role::enduser
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
+Package: dev.theos.orion14
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Development
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 2560
+Provides: dev.theos.orion (= 1.0.0)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/dev.theos.orion14_1.0.0_iphoneos-arm.deb
+Size: 1191088
+MD5sum: 0acd6e856902b2ee8f5d4489851439ce
+SHA1: ed6c1b6c7a779ae50a8d059e178347212699d6bb
+SHA256: 9a11ee73601b9638d12354487ac4f004a57e20b7c138e26000f3dff7c54ef7db
+SHA512: a21345ee76698b33308d467ecb90f5d30878f9f1245a8bb2dedf9cbd25fb921bd5318a4894a19d32e49f868c669c1074f339236672b6cff250d29af0740ab9d2
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Name: Orion Runtime (iOS 14)
+Author: Theos Team <support@theos.dev>
+Icon: https://cdn.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Depiction: https://chariz.com/get/orion-runtime14
+
+Package: uk.invoxiplaygames.discold
+Architecture: iphoneos-arm
+Version: 0.1.1
+Section: Tweaks
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 132
+Depends: mobilesubstrate
+Filename: ./debfiles/discold-0.1.1.deb
+Size: 6582
+MD5sum: a23fc764ecebdae21f1f6d87cce288ad
+SHA1: a9f19d4ccc96e833f7ee92a9da625f15f8922843
+SHA256: 33b3ebaa95754764334c46aa9ac31a5d28aee43a1590ee55c2685679406b7cdf
+SHA512: 381650ca3525cd9aac2d737b98b1c5572f261c0e1efc01e85034b12f553ee95bed3052ef9205cd212ebd6de604c1e057ac4f00bf7c97cecc3e106bc35f5b27cc
+Description: Fixes the Discord crash bug on iOS 7-9.
+Name: DiscOld [BETA]
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/discold.php
+
+Package: uk.invoxiplaygames.discold
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Tweaks
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 132
+Depends: mobilesubstrate
+Filename: ./debfiles/discold-0.1.deb
+Size: 5516
+MD5sum: deb138beeabb232dedf28acf5c4b6072
+SHA1: ed907a2ee3612c38863e3cfce6fc7d9b2ad2b559
+SHA256: 4a21bcc86b2a8f79c9483ea78ccc8c19742a6a4cff22197f5d87dc01391b4b2d
+SHA512: e16abbbbd1bdda2da0bac3c204d74ea8b0d2bebee5a4e3533c38b2c44b0e873ec28495e8c09f8e55c32c8b1e81ed6fe710c30c440eec15bc359fa823d0962f6c
+Description: Fixes the Discord crash bug on iOS 8/9.
+Name: DiscOld [BETA]
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/discold.php
+
+Package: trevir.Discord
+Architecture: iphoneos-arm
+Version: 0.8.5
+Section: Social
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./debfiles/discordclassic-0.8.5.deb
+Size: 819392
+MD5sum: a0c2471c860114d3d7d76ba7e1b7e61b
+SHA1: 9dc57ee4d8153fb90f03f08e5f0cbbb7aee8e2b4
+SHA256: 26d3e7b7f46286439774f358b0958e3eaaf53808a640fa06db9fdf7ba8a44bcc
+SHA512: b762ac41e06a0c907877af6c873f79e86da48768a588bb30d87ed0a0e15db161270088c1800b7f8e9617d211b227c94476b346a457684182a9fe484979ff037c
+Description: Discord client for iOS 5 & 6 by Trevir
+Name: Discord Classic
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Icon: file:///Applications/Discord.app/Icon@2x.png
+
+Package: com.r333d.eqe
+Architecture: iphoneos-arm
+Version: 2.2.2-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 16615
+Depends: firmware (<< 16), mobilesubstrate, coreutils
+Filename: ./debfiles/eqe_2.2.2-1.deb
+Size: 5602532
+MD5sum: ce116716ef138e830940cbb8e7c2aba6
+SHA1: 0fd88721a491559dac0d7845f1a609ff61f7571a
+SHA256: 218eee83cb64488ae384cc4425c0046ef20805c42365ec9e059bbb896f4d4970
+SHA512: 1d2500968eca3d82c3994a5a69f4a446c0a36d4f9d640569c56e0736f480041b4da0ecd00d392919869d5f8eca276ea840adba112285f09e15a2c6f26f6c7c29
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=eqe2Dp
+Description: System-wide parametric equalizer
+Tag: purpose::extension
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Name: EQE
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=eqe2Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rweichler
+Icon: file:///Library/Activator/Listeners/com.r333d.eqe.popup/icon-small@2x.png
+
+Package: gnupg
+Architecture: iphoneos-arm
+Version: 2.2.11-2
+Priority: required
+Section: Security
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 11408
+Provides: gnupg2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gcrypt, gnutls, libassuan, libksba, npth
+Conflicts: gnupg2
+Replaces: gnupg2
+Filename: ./debfiles/gnupg_2.2.11-2_iphoneos-arm.deb
+Size: 1179336
+MD5sum: cfb9ed217881a2f45d5c4ef7257934cb
+SHA1: d42ce287df3324eb1fbe61e974b560891b0c09f4
+SHA256: 17bcf57cd51eaad977745405fbef6f6caf772c69affb3ce411218133dd26cb23
+SHA512: 14b3f99a8c049c6b703f4a1cef915c6d17e9bd54181a36c518153c0567f08306e094dce592c5efdd2e97f32378aeaeb2f3155f798d57732947da95a69e6293cd
+Description: GNU privacy guard - a free PGP replacement
+Name: GnuPG
+
+Package: gzip
+Architecture: iphoneos-arm
+Version: 1.11
+Multi-Arch: foreign
+Priority: standard
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 337
+Filename: ./debfiles/gzip_1.11_iphoneos-arm.deb
+Size: 112566
+MD5sum: 4ac87a66c3bd978d2ae4a636a655981f
+SHA1: d84970f3c349142b68ae1f1b6265675ab83a87a9
+SHA256: 5255d4b03dcbf53d4264561b10cc95e56eb995999f005196ed53174cc4cb7aed
+SHA512: e5b7e7ec6ed4254e21d37b6652f1d6ca1c80b333af4fa29f4a5140b8f5a7dc9ed2be02d2010211343f0cf455be4e01fb5b219854c6f66cb5fddc2d091ef5761d
+Homepage: http://www.gzip.org/
+Description: GNU compression utilities
+ This package provides the standard GNU file compression utilities, which
+ are also the default compression tools for Debian.  They typically operate
+ on files with names ending in '.gz', but can also decompress files ending
+ in '.Z' created with 'compress'.
+
+Package: in.net.mario.tweak.fixappadmin
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: Mario Cheung
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debfiles/in.net.mario.tweak.fixappadmin_1.0.3_iphoneos-arm.deb
+Size: 6470
+MD5sum: 882a719c1b738e9cda22871ed5592905
+SHA1: f86283af82ce8d085312e565287c06490aca729f
+SHA256: 9c2cc39a2c8d59a2357455fb5d55d8a64f055cd1d989a039ac17d8eeb56d2dcd
+SHA512: 495fcaa07439669a8b1d48bc285afafe18ba851b76e52607fe76b9af26d112a8f69c9653c8bfda8279e9dc0e3e18fc3e3ecefddbc951fb18aea27e1196cd8f16
+Description: Try to fix App Admin crash when update on iOS 12.2~13.7
+Name: aFixToAppAdmin
+Author: Mario Cheung
+
+Package: ldid
+Architecture: iphoneos-arm
+Version: 2.1.5-procursus6
+Priority: optional
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 236
+Depends: libiosexec1 (>= 1.2.2), libssl3, libplist3 (>= 2.2.0)
+Filename: ./debfiles/ldid.deb
+Size: 72300
+MD5sum: 7d5ca4c4e0911b0820d37693881dc035
+SHA1: 6cc0bd3879e675f5eec736dc67ca944c480c8688
+SHA256: 2873fdf46b7a33406c8422780f2918303d4afe2c1f8cfef2237193a577237de1
+SHA512: 277dbe8c6e2d5aba058cba4e8585a9a7d3ee58fe33feeef09f5198320164044e8a00f26317f7eb7e1cd779cc98235bf3829edf5f933e645de53af360e5acb04b
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+
+Package: org.coolstar.libhooker
+Architecture: iphoneos-arm
+Version: 0.0.1.1
+Section: Development
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Filename: ./debfiles/libhooker.deb
+Size: 5436
+MD5sum: 4b6653470b9ef4d90f92b52be12d7def
+SHA1: 9413bb289ca3783f2a9eb079014fc86b24e8e4f6
+SHA256: b8494aebfa09c62593b76f3685644360d9d30f3c7f61e7d74ae9054575a7de61
+SHA512: 62f214a51f2f068479e8dcbd78a5aed4670e0075b83c66841b9670993d1effcd5624c280351c5a728c4a5c78511fdb9ebc332fcfcd8c54dbbcb67ceab9e299ff
+Description: shim for those who can't use the real libhooker (e.g. iOS 10 or arm32)
+Name: libhooker-shim
+Author: CoolStar <coolstarorganization@gmail.com>
+
+Package: libmagic1
+Architecture: iphoneos-arm
+Version: 5.43
+Priority: important
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 7996
+Depends: libiosexec1 (>= 1.2.2), liblzma5 (>= 5.2.5)
+Conflicts: file (<< 5.43)
+Replaces: file (<< 5.43)
+Filename: ./debfiles/libmagic1_5.43_iphoneos-arm.deb
+Size: 364524
+MD5sum: 7543a34dd054cfacfbf307573ef3dcb2
+SHA1: b22368a77b12f56f0c0975b8f74cdf9b00de5f89
+SHA256: 0beff6d7bd55eba59b72a1cf0c3953f67c6468d2542a5fa4dbc3116025928655
+SHA512: a05bb41e2f7de4255a8d144adebe4eb969839d46fb295d778bbd9b666d6d022083f3f290e12f94bd7a9dc58402da1317816eee689bcb416f323181529cf59c98
+Description: Recognize the type of data in a file using "magic" numbers - library
+ This library can be used to classify files according to magic number
+ tests. It implements the core functionality of the file command.
+
+Package: libplist3
+Architecture: iphoneos-arm
+Version: 2.2.0+git20220405.db93bae
+Priority: standard
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 132
+Provides: libplist (= 99)
+Conflicts: libplist
+Replaces: libplist
+Filename: ./debfiles/libplist3.deb
+Size: 35974
+MD5sum: 6c0090d4f413beee2b0a3f9e0ddf5df4
+SHA1: f0aa004097d08770ccda2a2b296c777028b80d96
+SHA256: 96ee17d25141aed1d2711ea14514f6e9997adcf1fd3cc7f711a691233a8e2fa5
+SHA512: 707492fea44876d649af9fd1ea6fe604a15490d6b91f9b95fb7b122461c3b1a1e68cfb98b3a10b892814fd3a2d503a5c166a31d40eb146293731357f0fd7bfde
+Description: Library for handling Apple binary and XML property lists
+
+Package: org.swift.libswift
+Architecture: iphoneos-arm
+Version: 5.0-electra2
+Section: Development
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 7.0)
+Filename: ./debfiles/libswift.deb
+Size: 23330860
+MD5sum: 41d4fb6b08e22467836a200d6bf8db9c
+SHA1: 020e2926035d63cdb59e62b8d6a63cee88f0a14f
+SHA256: 07adbccbde8682adb44e8dcf0bdd6bef5c909d879ca654e6533f8a52f1884ced
+SHA512: e6fd9eac7836dbdc2d9fceb12849c0a5f4a94fabf114e4e486e75449c0c3e0603f023be5ff2c53c41c6813056868fb61a646dd6142db4bf140ac11e9a5daeda1
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Name: libswift (stable)
+SileoDepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.swift.libswift
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+dev: kabiroberai
+
+Package: lzma
+Architecture: iphoneos-arm
+Version: 4.32.7-5
+Priority: important
+Section: Archiving
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 396
+Depends: grep, sed
+Filename: ./debfiles/lzma_4.32.7-5_iphoneos-arm.deb
+Size: 94200
+MD5sum: 380df3199561ffb73466c6bf25bccbfa
+SHA1: c8474940038ee024dae0d90ca9beec9a3f6c4c2f
+SHA256: eeb6f7a7859d3f5233bc422d01a54fbdde48490be438131ccbd14df4f24998e8
+SHA512: a36a8f50706009627c69d74e1ab3082490759b3885f2da9f6ea9aeb27d917c364d789cee1fa8cdeef9458236c3f5ef16d1f298ffad1502a53a8aab01367ee7fb
+Homepage: http://tukaani.org/lzma/
+Description: slower, but better, compression algorithm
+Name: LZMA Utils
+
+Package: nano
+Architecture: iphoneos-arm
+Version: 6.4
+Priority: standard
+Section: Text_Editors
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 2736
+Depends: libiosexec1 (>= 1.2.2), libmagic1, libncursesw6, libintl8
+Filename: ./debfiles/nano_6.4_iphoneos-arm.deb
+Size: 632212
+MD5sum: d2c4e8324944d17ac2753a2b317f4a01
+SHA1: d84b256b937a3bfcc2d0c8705eee105d2cb34c9c
+SHA256: 291b67e92413b507274e28ac9ffa92d6b15ceddc504a57c96b8c8a6628094f10
+SHA512: ba24878cb295a10e132880bfc9675724c5536d6fc0d1f9a9d5ed01331c4a3100461ae3a666016c7d98a0ff2d3b85fd62c09e3d817b6add40ddfd6d751e5f985c
+Homepage: https://www.nano-editor.org/
+Description: Completely free, modern clone of Pico.
+ GNU nano is an easy-to-use text editor originally
+ designed as a replacement for Pico, the ncurses-based
+ editor from the non-free mailer package Pine (itself now
+ available under the Apache License as Alpine). However,
+ GNU nano also implements many features missing ih Pico,
+ including:
+ - Undo/redo
+ - Line numbering
+ - Syntax coloring
+ - Soft-wrapping of overlong lines
+ - Selecting text by holding Shift
+ - Interactive search and replace
+ - A go-to line (and column) command
+ - Support for multiple file buffers
+ - Auto-identation
+ - Tab completion of filenames and search terms
+ - Toggling features while running
+ - Full internationalization support
+
+Package: net.cadoth.fakepass
+Architecture: iphoneos-arm
+Version: 0.1.0-11+debug
+Section: Tweaks
+Maintainer: nyuszika7h <nyuszika7h@gmail.com>
+Installed-Size: 208
+Depends: cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.14)
+Filename: ./debfiles/net.cadoth.fakepass_0.1.0-11debug_iphoneos-arm.deb
+Size: 206992
+MD5sum: f08b226f935128d417c20c11a96f1013
+SHA1: cbf9bd369f93bd33ea253e529a6133959ec1c0f1
+SHA256: 64164d09ccbf714bdee8915469dc02fb89d6dd8d114e72c07f21e793872f4f94
+SHA512: b8232c8ec8a032db8d8dd5bfcb9439fe7990e345769d8b156e55debb1ffd0ef62b343b24fa57906d0cfe7f18ba4ea2f43b40b362ef9c3ab476484a79f5f3be7f
+Description: Fake passcode for checkra1n on A11 devices running iOS 14+
+Name: FakePass
+Author: nyuszika7h <nyuszika7h@gmail.com>
+
+Package: org.thebigboss.dismissprogress
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Tweaks
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: firmware (>= 6.0)
+Filename: ./debfiles/org.thebigboss.dismissprogress_1.1.1_iphoneos-arm.deb
+Size: 5238
+MD5sum: e3a54711baec689ad8a831177179ea34
+SHA1: 9258aabc239dfee37cfbb9db3db33844b096340e
+SHA256: 69362db9aee63b06d5e71931b336645885777bb1b1fe79cdf0d7998325c55d79
+SHA512: 59d23d2b6e35d710c231fdf627f96b9273e921e9ec2d09d5c20f265bc31ed9da5395f99c5e5d107e400ed4790fc25903f7d51e14ef1c1135f41b4430ffb02f8d
+Description: Dismiss installation window without closing cydia.
+Name: DismissProgress
+Author: PoomSmart
+
+Package: org.thebigboss.repo.icons
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Repositories
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 48
+Replaces: cydia, bigboss
+Filename: ./debfiles/org.thebigboss.repo.icons_1.0.deb
+Size: 11488
+MD5sum: f286c0da9cf71d206bea9aa6bf225701
+SHA1: 401b49fba4dd88d62c2e76dcaf57562a82a4fa7b
+SHA256: 30076cf7179cc1a25a8c33242b4ca6b8b70edf172d16b1368c232b16e4f93e9f
+SHA512: 9b9caa3be88ad8d31692d7833e3a7f7c3f63a3a5cd860326dc2c97fe3bda0a855cc05a9438cf391a22868911b71b650a07a83c712ab8aa0e9a702227fbb59956
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
+
+Package: preferenceloader
+Architecture: iphoneos-arm
+Version: 2.2.6
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 526
+Depends: mobilesubstrate
+Filename: ./debfiles/preferenceloader.deb
+Size: 36414
+MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
+SHA1: c1d547036234756c5e75a633393d4ffa791b1126
+SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
+SHA512: 8b1010e1bc02c722edf248cb4ad74ed03990334f290686450eff2d2354603bc6148298c478e98cf270ae875a2f2119598e3ba4cdfd0e0b1c6c298596ac8d7be3
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Name: PreferenceLoader
+Author: Sam Bingner <maintainer@sbdhi.com>
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Version: 1.1.0~libhooker2
+Section: Tweaks
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.libhooker
+Filename: ./debfiles/rocketbootstrap.deb
+Size: 10444
+MD5sum: baf051456b187d84a08c45129141a9ff
+SHA1: 4327f33c86f776a5005d95a5159234234d3f9ed0
+SHA256: 6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac
+SHA512: 952dbc0c188d9441446a3aeb3c29be941794a60f95e1ba395e9eced9266ce6bbb93ca4631ede812a0648a6440e9e25de0f2255207ac101859610b0f04d246821
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Name: RocketBootstrap
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+dev: rpetrich
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6005
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debfiles/safemode.deb
+Size: 22736
+MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
+SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
+SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
+SHA512: 96bc00fdd620d18beff17ff73835baf264832f9ada2eaf01b641362a8a9641d2d31e48c91f1c3062d09a62c6cf37903cf511d5c6a2e03e1427d33927197fc1f0
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.3
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./debfiles/sileo.deb
+Size: 1997556
+MD5sum: 8ec089704f0bd944d914ff044fef91a4
+SHA1: c3fc6093b43b37d41fd95bcfc7cb7852fc544870
+SHA256: d7cec451c30724bf92aec88ff217aa83a310ee87eab3fca438fce688a6d179ee
+SHA512: cedcd583b51118fd13107eb6dfc1bcfe7c1bbf5aee9a5364e38b439d7f60a34e9c016b048e912801f6edccfb1c15f531f06cc864185860fa9c3f2d3e74ddc0ff
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: com.ex.substitute
+Architecture: iphoneos-arm
+Version: 2.3.1
+Priority: optional
+Section: System
+Maintainer: Sam Bingner
+Installed-Size: 27456
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Filename: ./debfiles/substitute.deb
+Size: 7442088
+MD5sum: dce90a30e8b20198762d81c5872ad1b3
+SHA1: 0f8c9ef6db614eb7f82caf7ff2b06cabf0233232
+SHA256: b37592166962f70a5b1bafc15848f229b4689bb60a9bbc61431b8be361193fd6
+SHA512: 755bdbeafa9a15ad56e0bc263122b17b128ea76c2cb9d2412ae0f5468a87130914035c687d9efe9ed3b3828a9291106348711f900a4c828645079cb3b6aa46a4
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: sudo
+Architecture: iphoneos-arm
+Version: 1.9.12p1
+Priority: required
+Essential: yes
+Section: Administration
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 5492
+Depends: libiosexec1 (>= 1.2.2), libintl8, libpam2
+Filename: ./debfiles/sudo.deb
+Size: 1222846
+MD5sum: 811288a635dbc47ab16a081ee1d46a6f
+SHA1: c12f06d6969fd4b0cbd2af57cde859a696d45820
+SHA256: 75e9cef36db09032ac004ef8e9299874640c6b2b713d0c30c98f4584b507cabe
+SHA512: 89292b8173a509ccdb81bc7dec5d30d194c7f9e822390c9938488994a59771146a154a3aebee1f0c09659a522c908c50ac1b9f57590a0657f18fa17ebd7a4166
+Description: temporarily assume root priviledges
+
+Package: xz-utils
+Architecture: iphoneos-arm
+Version: 5.2.5-3
+Priority: standard
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 244
+Provides: xz (=1:0), lzma (=3:0)
+Depends: liblzma5 (>= 5.2.5-3), libintl8
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: ./debfiles/xz-utils_5.2.5-3_iphoneos-arm.deb
+Size: 61454
+MD5sum: 34654b0eb51352a93f1816e0f86bd6c6
+SHA1: b541db4bcb0149cbc8eb653178d0aa3096b47caf
+SHA256: 47c8186a70aeb5fdc25dd0c79397a781c65ea086aed79a95915871a7b194719b
+SHA512: 2a59471da0099400fa46c8d625f9da787c23c39b802415b01d5b7202e9027ad3b2936b9a1338cc278ab7fbfc35ac367bd6a7b4b476f6eff592090eab1e511e06
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+  * 'file' magic for detecting XZ files;
+  * crc64 data integrity check;
+  * limited random-access reading support;
+  * improved support for multithreading (not used in xz-utils);
+  * support for flushing the encoder.
+Name: XZ Utils
+
+Package: xz-utils
+Architecture: iphoneos-arm
+Version: 5.2.8
+Priority: standard
+Section: Archiving
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 900
+Provides: xz (=1:0), lzma (=3:0)
+Depends: libiosexec1 (>= 1.2.2), liblzma5 (>= 5.2.8), libintl8
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: ./debfiles/xz-utils_5.2.8_iphoneos-arm.deb
+Size: 182200
+MD5sum: 38fb10333c8d099266ee86e02cf00377
+SHA1: 6a85ee5b072ffa36404c8ec455c66259682ff054
+SHA256: 50d0baa602a8c25c831d12d9d1d68d35f45b77a0507829bff9ee021a6094b616
+SHA512: d9e5f4df0751524943258040b124d65fa2c3a1db054b2b08aba021f20ffa369199ee2a1aabf89b5c8b255d2af0acde465a6cd8e57cc9746a1c4ff2445870ebfa
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+  * 'file' magic for detecting XZ files;
+  * crc64 data integrity check;
+  * limited random-access reading support;
+  * improved support for multithreading (not used in xz-utils);
+  * support for flushing the encoder.
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.28
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 14484
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debfiles/zebra.deb
+Size: 8229374
+MD5sum: bd84c2b5d14690f71e11018933e240c9
+SHA1: f8afa3305457f9f3408bec8ae33ada959a7248ce
+SHA256: 9778218e84fc63661ac0640da6bddbb96ab529906c6b38bb604ec28a375e3307
+SHA512: 0a9bf8a50dd39ad224fcf8f3984cf3a9e53ca3d7af412b07d01228b0d92890213e3670deea80d355017da531e047407ea9beba91bcb93257324763c4d030ca85
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.8
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
+Package: zstd
+Architecture: iphoneos-arm
+Version: 1.5.2
+Priority: standard
+Section: Archiving
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 812
+Depends: libzstd1 (>= 1.5.2), liblz4-1, liblzma5 (>= 5.2.5)
+Filename: ./debfiles/zstd_1.5.2_iphoneos-arm.deb
+Size: 266098
+MD5sum: e6d30c1586a98db96244cca37d6188df
+SHA1: 4413a18b0acbf4bcc320138288d35d35e6daeb62
+SHA256: ae7c3320a58335e3928bb15f4a90bf1451cec58658a0a2f8d25370e29a1c6c8d
+SHA512: 0ea2168cfd4fe64f98363e570875b65b67b524c290e58f5957cf36c791fd60fee907435229dd71af0c1c6cd37136a90aa2326aef265463124ce0f5fa7a70b4e8
+Description: fast lossless compression algorithm -- CLI tool
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the CLI program implementing zstd.
+
